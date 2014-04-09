@@ -1,0 +1,26 @@
+﻿<LiveAuctionWinPhone8:ViewModel xmlns:LiveAuctionWinPhone8="clr-namespace:LiveAuctionWinPhone8" xmlns:Models="clr-namespace:LiveAuctionWinPhone8.Models" xmlns:System="clr-namespace:System;assembly=mscorlib">
+	<LiveAuctionWinPhone8:ViewModel.Items>
+		<Models:ItemModel desc="Vestibulum mus blandit duis" duration="39" end="03/16/2014 12:03:19" id="42" name="Morbi parturient" price="336.22" reserve="631.79" start="03/16/2014 12:03:19" status="Eleifend convallis"/>
+		<Models:ItemModel desc="Proin nunc" duration="13" end="03/16/2014 12:03:19" id="55" name="Nulla commodo auctor conubia" price="255.13" reserve="541.48" start="03/16/2014 12:03:19" status="Augue cubilia dapibus facilisi dignissim"/>
+		<Models:ItemModel desc="Ante arcu adipiscing" duration="80" end="03/16/2014 12:03:19" id="18" name="Faucibus congue vestibulum amet" price="570.49" reserve="649.19" start="03/16/2014 12:03:19" status="Diam parturient eget vestibulum habitant"/>
+		<Models:ItemModel desc="Interdum elit adipiscing" duration="59" end="03/16/2014 12:03:19" id="59" name="Vestibulum cursus dictum inceptos" price="613.41" reserve="128.05" start="03/16/2014 12:03:19" status="Nec non per"/>
+		<Models:ItemModel desc="Elementum egestas facilisis" duration="21" end="03/16/2014 12:03:19" id="89" name="Parturient sed" price="836.07" reserve="211.49" start="03/16/2014 12:03:19" status="Vestibulum enim dolor"/>
+		<Models:ItemModel desc="Sit vel fermentum lectus" duration="87" end="03/16/2014 12:03:19" id="75" name="Erat sem lobortis" price="706.42" reserve="183.15" start="03/16/2014 12:03:19" status="Nascetur pharetra fringilla placerat nam"/>
+		<Models:ItemModel desc="Euismod eros adipiscing" duration="38" end="03/16/2014 12:03:19" id="25" name="Habitasse pulvinar fames vestibulum" price="572.25" reserve="146.71" start="03/16/2014 12:03:19" status="Feugiat sagittis libero gravida senectus"/>
+		<Models:ItemModel desc="Ligula suscipit litora" duration="75" end="03/16/2014 12:03:19" id="16" name="Hendrerit sociosqu iaculis himenaeos" price="978.99" reserve="164.49" start="03/16/2014 12:03:19" status="Parturient vestibulum lacinia"/>
+		<Models:ItemModel desc="Laoreet felis parturient magnis dis" duration="14" end="03/16/2014 12:03:19" id="50" name="Sed vestibulum adipiscing imperdiet luctus" price="329.58" reserve="690.67" start="03/16/2014 12:03:19" status="Mattis vestibulum"/>
+		<Models:ItemModel desc="Adipiscing natoque" duration="88" end="03/16/2014 12:03:19" id="55" name="Nibh ipsum torquent vestibulum" price="767.81" reserve="796.99" start="03/16/2014 12:03:19" status="Est ultrices vehicula malesuada"/>
+	</LiveAuctionWinPhone8:ViewModel.Items>
+	<LiveAuctionWinPhone8:ViewModel.Messages>
+		<System:String>Aliquam class aenean cras</System:String>
+		<System:String>Integer quisque nam</System:String>
+		<System:String>Vivamus sed curabitur</System:String>
+		<System:String>Dis maecenas</System:String>
+		<System:String>Est aliquam hac vestibulum</System:String>
+		<System:String>Praesent curae phasellus accumsan</System:String>
+		<System:String>Mauris donec</System:String>
+		<System:String>Leo etiam fusce nullam</System:String>
+		<System:String>Bibendum consequat</System:String>
+		<System:String>Aliquet aptent adipiscing dictumst lorem</System:String>
+	</LiveAuctionWinPhone8:ViewModel.Messages>
+</LiveAuctionWinPhone8:ViewModel>

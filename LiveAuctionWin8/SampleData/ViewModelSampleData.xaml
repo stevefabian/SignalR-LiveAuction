@@ -1,0 +1,99 @@
+﻿<ViewModels:ViewModel xmlns:ViewModels="using:LiveAuctionWin8.ViewModels" xmlns:Threading="using:System.Threading" xmlns:Models="using:LiveAuctionWin8.Models" xmlns:System="using:System">
+	<ViewModels:ViewModel.Context>
+		<Threading:SynchronizationContext/>
+	</ViewModels:ViewModel.Context>
+	<ViewModels:ViewModel.Items>
+		<Models:ItemModel bidder="Commodo eget elit enim" desc="Est diam hac leo" duration="36" end="03/19/2014 12:31:12" id="56" name="Blandit fusce" start="03/19/2014 12:31:12" status="Conubia vestibulum mus erat eros">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Eleifend nulla" desc="Morbi cubilia" duration="67" end="03/19/2014 12:31:12" id="71" name="Consequat lorem nec" start="03/19/2014 12:31:12" status="Proin dapibus facilisi non">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Felis auctor" desc="Aptent faucibus per egestas" duration="52" end="03/19/2014 12:31:12" id="39" name="Nullam vestibulum augue dolor fames" start="03/19/2014 12:31:12" status="Habitant ipsum nibh euismod congue">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Ligula nisl adipiscing elementum" desc="Feugiat lectus libero nisi" duration="61" end="03/19/2014 12:31:12" id="77" name="Convallis cursus dictum dignissim" start="03/19/2014 12:31:12" status="Gravida justo sed litora iaculis">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Sit interdum" desc="Facilisis nunc odio" duration="79" end="03/19/2014 12:31:12" id="88" name="Sem inceptos lacinia parturient vestibulum" start="03/19/2014 12:31:12" status="Fermentum luctus lobortis">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Pede fringilla magnis" desc="Vestibulum lacus laoreet adipiscing" duration="93" end="03/19/2014 12:31:12" id="30" name="Nascetur orci" start="03/19/2014 12:31:12" status="Parturient natoque">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Vestibulum potenti" desc="Vel posuere" duration="18" end="03/19/2014 12:31:12" id="66" name="Quam vestibulum" start="03/19/2014 12:31:12" status="Lorem magna nam quis">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Habitasse pretium" desc="Sed mauris" duration="99" end="03/19/2014 12:31:12" id="98" name="Massa mattis" start="03/19/2014 12:31:12" status="Urna pharetra mollis hendrerit">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Penatibus dis" desc="Malesuada cras" duration="63" end="03/19/2014 12:31:12" id="54" name="Rhoncus himenaeos imperdiet montes placerat" start="03/19/2014 12:31:12" status="Duis pulvinar">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+		<Models:ItemModel bidder="Viverra metus" desc="Tincidunt senectus nunc" duration="36" end="03/19/2014 12:31:12" id="85" name="Sodales sagittis est porttitor adipiscing" start="03/19/2014 12:31:12" status="Aliquam morbi integer">
+			<Models:ItemModel.price>
+				<System:Decimal/>
+			</Models:ItemModel.price>
+			<Models:ItemModel.reserve>
+				<System:Decimal/>
+			</Models:ItemModel.reserve>
+		</Models:ItemModel>
+	</ViewModels:ViewModel.Items>
+	<ViewModels:ViewModel.Messages>
+		<System:String>Aenean aliquam nam</System:String>
+		<System:String>Integer class cras quisque</System:String>
+		<System:String>Maecenas sed</System:String>
+		<System:String>Curae duis praesent vivamus</System:String>
+		<System:String>Vestibulum mauris nunc</System:String>
+		<System:String>Amet accumsan</System:String>
+		<System:String>Adipiscing aliquam dis curabitur</System:String>
+		<System:String>Aliquet bibendum dictumst parturient</System:String>
+		<System:String>Phasellus donec</System:String>
+		<System:String>Ante etiam arcu</System:String>
+	</ViewModels:ViewModel.Messages>
+</ViewModels:ViewModel>

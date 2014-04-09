@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Auction Administration";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <th></th>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>RESERVE</th>
+        <th>PRICE</th>
+        <th>STATUS</th>
+        <th>START</th>
+        <th>DURATION (MIN)</th>
+        <th>END</th>
+    </thead>
+    <tbody data-bind="foreach: items">
+        <tr data-bind="attr: {'class': status}">
+            <td><input type='checkbox' /></td>
+            <td data-bind="text: id"></td>
+            <td data-bind="text: name"></td>
+            <td data-bind="text: reserve"></td>
+            <td data-bind="text: price"></td>
+            <td data-bind="text: status"></td>
+            <td data-bind="text: moment(start).format('MM-DD-YYYY hh:mm a')"></td>
+            <td data-bind="text: duration"></td>
+            <td data-bind="text: moment(end).format('MM-DD-YYYY hh:mm a')"></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<script src="~/ViewModels/Admin.js"></script>

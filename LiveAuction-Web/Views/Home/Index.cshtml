@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Welcome, Enter your First Name</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <input type="text" class="form-control counted" 
+                  data-bind="value: username" style="margin-bottom: 12px;"/>
+        <button class="btn btn-info" data-bind="click: joinAuction">Join Auction</button>
+    </div>
+</div>
+
+<script src="~/ViewModels/Index.js"></script>

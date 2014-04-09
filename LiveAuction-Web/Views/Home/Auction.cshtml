@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "SignalR Auction";
+}
+
+<script type="text/javascript">
+    var _user = "@HttpContext.Current.User.Identity.Name";
+</script>
+
+<div class="jumbotron">
+    <h1>SignalR Auction</h1>
+    <p class="lead">A demo application to showcase the use of SignalR to provide real-time 2-way communciation between Browsers, Desktops and Mobile devices.</p>
+    <p>You are signed in as <span data-bind="text: username"></span></p>
+</div>
+<div class="row">
+
+    <div class="col-md-8">
+        <ul class="thumbnails" data-bind="foreach: items">
+            <li class="col-md-4">
+                <div class="thumbnail" style="min-height: 380px; height: 380px;">
+                    <img src="http://placehold.it/150x100" alt="ALT NAME"
+                         style="padding-top: 4px;">
+                    <div class="caption">
+                        <h4 data-bind="text: Name"></h4>
+                        <p data-bind="text: Desc"></p>
+                        <h4>Current Price<br /><span data-bind="text: accounting.formatMoney(Price)"></span></h4>
+                        <div>Highest Bidder</div>
+                        <b><div data-bind="text: Bidder"></div></b>
+                        <p align="center">
+                            <input type="text" class="form-control" data-bind="value: Bid" />
+                            <a href="#" data-bind="click: $parent.bid" class="btn btn-primary btn-block">Bid</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-4">
+        <textarea class="form-control counted" name="message"
+                  data-bind="value: message"
+                  placeholder="Type in your message" rows="5"
+                  style="margin-bottom:10px; min-width: 100%;"></textarea>
+        <button class="btn btn-info" type="submit" data-bind="click: postMessage">Post New Message</button>
+        <div id="messages"></div>
+    </div>
+
+</div>
+
+<script src="~/ViewModels/Auction.js"></script>
