@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="hitCount"></div>
+    <!-- replace this code with your version of jquery -->
+    <script src="../Scripts/jquery-1.10.2.js"></script>
+    <!-- replace this code with your version of signalr -->
+    <script src="../Scripts/jquery.signalR-2.0.1.js"></script>
+    <script>
+        $(function () {
+            var con = $.hubConnection();
+            var hub = con.createHubProxy('myHub');
+            hub.on('onHitCountUpdated', function (hitCount) {
+                $('#hitCount').text(hitCount);
+            });
+            hub.on('onBid', function (id, bid) {
+                $("#bids").append("Bid for " + bid + " placed on item " + id + "<br />");
+            });
+            con.start(function () {
+                hub.invoke('RecordHit');
+            });
+        });
+    </script>
+    <input type="text" />
+    <span id="bids"></span>
+
+    <script>
+        var vm = {
+
+            itemid: ko.observable(),
+            bid: ko.observable(),
+
+            placeBid: function () {
+
+                
+                
+            }
+
+        };
+
+        // Activates knockout.js
+        ko.applyBindings(vm);
+    </script>
+</body>
+</html>
